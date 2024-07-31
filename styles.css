@@ -1,0 +1,165 @@
+.top-container{
+    background-color: red;
+}
+
+.heading1{
+    font-weight: bolder; 
+    text-decoration: underline; 
+    color: #FF8225;
+}
+
+.heading2{
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #7C00FE; 
+    font-style: italic;
+}
+
+.span1{
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #7C00FE; 
+    font-style: italic;
+}
+
+.nbar>h1{
+    color: #8C3061;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.nbar>nav{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.about{
+    padding: 25px;
+    padding-left: 50px;
+    display: flex;
+    background-color: #FEFFD2;
+}
+
+.ck-img{
+    border-radius: 50%;
+}
+
+.about-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-center;
+    text-align: center;
+    margin: auto;
+}
+
+.skills{
+    display: flex;
+    padding: 25px;
+    background-color: #9BE8D8;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.sd-ul{
+    text-align: left;
+    list-style: square;
+}
+
+.projects{
+    display: flex;
+    padding: 25px;
+    background-color: #BFCFE7;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.contacts{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4C59E;
+}
+
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ck-img{
+        height: 200px;
+        width: 150px;
+        margin: auto;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills>img{
+        height: 200px;
+        width: 180px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects>img{
+        height: 200px;
+        width: 180px;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts>img{
+        height: 200px;
+        width: 180px;
+    }
+
+    svg{
+        display: flex;
+        justify-content: space-around;
+    }
+}
